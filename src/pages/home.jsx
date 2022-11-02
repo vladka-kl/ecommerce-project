@@ -1,12 +1,13 @@
+import { Link } from "react-router-dom";
 export const Home = () => {
   return (
     <div>
       <ul>
         <li>
-          <b>file name:</b> home.jsx
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <b>component name:</b> Home
+          <Link to="/categories">Categories</Link>
         </li>
       </ul>
     </div>
